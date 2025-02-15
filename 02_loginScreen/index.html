@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LoginScreen</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="flex justify-center items-center min-h-screen">
+    <div
+      class="bg-gray-700 rounded-lg p-8 max-w-sm w-full drop-shadow-xl shadow-2xl shadow-black"
+    >
+      <h2 class="text-center text-4xl mb-6 font-bold text-white">Login</h2>
+      <form action="#">
+        <div class="mb-4">
+          <label
+            class="block text-sm font-medium text-gray-200 mb-2"
+            for="email"
+            >Email:
+          </label>
+          <input
+            class="w-full px-3 py-2 bg-gray-600 text-white focus:outline-none rounded-md focus:ring-1 focus:ring-black"
+            type="email"
+            name="email"
+            id=""
+            placeholder="Email"
+          />
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm font-medium text-gray-200 mb-2" for="pass"
+            >Password:
+          </label>
+          <input
+            class="w-full px-3 py-2 bg-gray-600 text-white focus:outline-none rounded-md focus:ring-2 focus:ring-black"
+            type="password"
+            name="password"
+            id=""
+            placeholder="password"
+          />
+        </div>
+        <button
+          type="submit"
+          class="w-full text-white py-2.5 rounded-md appearance-none bg-transparent border-2 border-gray-950 hover:bg-gray-950"
+        >
+          Login
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
