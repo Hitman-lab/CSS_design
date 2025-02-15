@@ -3,5 +3,6 @@
 
 
 ### brand card
-![image](https://github.com/user-attachments/assets/27d95313-6cd6-45f8-88bc-394cd0bd49dd)
+![image](https://github.com/user-attachments/assets/fa12503d-7f7d-4df2-956b-910291af89a2)
+
 
